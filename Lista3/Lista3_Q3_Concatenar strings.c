@@ -16,10 +16,10 @@ int main () {
 	//descobrir posição do ultimo caractere da primeira string
 	for(i = 0; s1[i] != '\0' && i < sizeof(s1); i++) {}
 
-    //passar valores da segunda string para a primeira a partir do ultimo caractere da primeira string
-    for(j = 0; s2[j] != '\0' && j < sizeof(s2); j++, i++) {
-        s1[i] = s2[j];
-    }
+	//passar valores da segunda string para a primeira a partir do ultimo caractere da primeira string
+	for(j = 0; s2[j] != '\0' && j < sizeof(s2); j++, i++) {
+		s1[i] = s2[j];
+	}
 
 	printf("A palavra concatenada eh: %s", s1);
 
