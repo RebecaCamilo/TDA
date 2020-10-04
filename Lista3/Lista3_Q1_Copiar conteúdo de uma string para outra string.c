@@ -1,6 +1,6 @@
-//Implemente a função strcpy de string.h utilizando qualquer estrutura de repetição.
-//A função strcpy copia o conteúdo de uma string para outra.
-//DICA: Cuidado com o espaço em memória.
+//Implemente a funÃ§Ã£o strcpy de string.h utilizando qualquer estrutura de repetiÃ§Ã£o.
+//A funÃ§Ã£o strcpy copia o conteÃºdo de uma string para outra.
+//DICA: Cuidado com o espaÃ§o em memÃ³ria.
 
 #include <stdio.h>
 
@@ -11,9 +11,8 @@ int main () {
 	int i;
 
 	puts("Digite uma ou duas palavras (Max 20 letras):");
-
-	scanf("%s", &s_origem);
-	scanf("%s", &s_destino);
+	gets(s_origem);
+	gets(s_destino);
 
 	for(i = 0; s_origem[i] != '\0' || s_destino[i] != '\0' && i < sizeof(s_origem); i++) {
 		s_destino[i] = s_origem[i];
