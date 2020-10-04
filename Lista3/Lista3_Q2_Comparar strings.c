@@ -1,5 +1,5 @@
-//Implemente a função strcmp de string.h utilizando qualquer estrutura de repetição.
-//A função strcmp compara os conteúdos de duas strings e verifica se são iguais retornando 0.
+//Implemente a funÃ§Ã£o strcmp de string.h utilizando qualquer estrutura de repetiÃ§Ã£o.
+//A funÃ§Ã£o strcmp compara os conteÃºdos de duas strings e verifica se sÃ£o iguais retornando 0.
 
 #include <stdio.h>
 
@@ -10,9 +10,9 @@ int main () {
 	int i;
 	int cont = 0;
 
-    printf("Digite duas palavras (Max 20 letras):\n");
-	scanf("%s", s1);
-	scanf("%s", s2);
+    	printf("Digite duas palavras (Max 20 letras):\n");
+	gets(s1);
+	gets(s2);
 
 	for(i = 0; s1[i] != '\0' && i <= sizeof(s1) ; i++) {
 		if(s1[i] != s2[i]){
