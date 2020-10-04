@@ -1,6 +1,6 @@
-//Implemente a função strcat de string.h utilizando qualquer estrutura de repetição.
-//A função strcat concatena o conteúdo de uma string em outra.
-//DICA: Cuidado com o espaço em memória.
+//Implemente a funÃ§Ã£o strcat de string.h utilizando qualquer estrutura de repetiÃ§Ã£o.
+//A funÃ§Ã£o strcat concatena o conteÃºdo de uma string em outra.
+//DICA: Cuidado com o espaÃ§o em memÃ³ria.
 
 #include <stdio.h>
 
@@ -10,10 +10,10 @@ int main () {
 	int i , j = 0;
 
 	printf("Digite duas palavras (Max 20 letras cada):\n");
-	scanf("%s", s1);
-	scanf("%s", s2);
+	gets(s1);
+	gets(s2);
 
-	//descobrir posição do ultimo caractere da primeira string
+	//descobrir posiÃ§Ã£o do ultimo caractere da primeira string
 	for(i = 0; s1[i] != '\0' && i <= (sizeof(s1)); i++) {}
 
     //passar valores da segunda string para a primeira a partir do ultimo caractere da primeira string
