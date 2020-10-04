@@ -18,8 +18,8 @@ int main () {
 		s_destino[i] = s_origem[i];
 	}
 
-    printf("\nA primeira palavra digitada foi: %s", s_origem);
-    printf("\nA segunda palavra agora e: %s\n", s_destino);
+	printf("\nA primeira palavra digitada foi: %s", s_origem);
+	printf("\nA segunda palavra agora e: %s\n", s_destino);
 
 	return 0;
 }
