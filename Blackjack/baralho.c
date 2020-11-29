@@ -13,7 +13,7 @@ int mostrar_carta(void)
 	
 	if (jogada == 1)
 	{
-		printf("\t\t\t\t\tVocê recebeu a carta Ás, ela vale 1 ponto\n");
+		printf("\t\t\t\t\tVocÃª recebeu a carta Ãs, ela vale 1 ponto\n");
 		printf("\t\t\t\t\t\t\t _____ \n"); 
 	    printf("\t\t\t\t\t\t\t|A .  |\n");
 	    printf("\t\t\t\t\t\t\t| /.\\ |\n");
@@ -24,7 +24,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 2)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 2\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 2\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|2    |\n");
 		printf("\t\t\t\t\t\t\t|  ^  |\n");
@@ -35,7 +35,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 3)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 3\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 3\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|3    |\n");
 		printf("\t\t\t\t\t\t\t| ^ ^ |\n");
@@ -46,7 +46,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 4)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 4\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 4\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|4    |\n");
 		printf("\t\t\t\t\t\t\t| ^ ^ |\n");
@@ -57,7 +57,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 5)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 5\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 5\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|5    |\n");
 		printf("\t\t\t\t\t\t\t| ^ ^ |\n");
@@ -68,7 +68,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 6)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 6\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 6\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|6    |\n");
 		printf("\t\t\t\t\t\t\t| ^ ^ |\n");
@@ -79,7 +79,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 7)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 7\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 7\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|7    |\n");
 		printf("\t\t\t\t\t\t\t| ^ ^ |\n");
@@ -90,7 +90,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 8)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 10\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 10\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|8    |\n");
 		printf("\t\t\t\t\t\t\t|^ ^ ^|\n");
@@ -101,7 +101,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 9)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 9\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 9\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|9    |\n");
 		printf("\t\t\t\t\t\t\t|^ ^ ^|\n");
@@ -112,7 +112,7 @@ int mostrar_carta(void)
 	
 	else if (jogada == 10)
 	{
-		printf("\t\t\t\t\t\tVocê recebeu a carta 10\n");
+		printf("\t\t\t\t\t\tVocÃª recebeu a carta 10\n");
 		printf("\t\t\t\t\t\t\t _____ \n");    
 		printf("\t\t\t\t\t\t\t|10 ^ |\n");
 		printf("\t\t\t\t\t\t\t|^ ^ ^|\n");
@@ -123,35 +123,41 @@ int mostrar_carta(void)
 	
 	else if (jogada == 11)
 	{
-		printf("\t\t\t\t\tVocê recebeu um Valete, ele vale 11 pontos\n");
+		printf("\t\t\t\t\tVocÃª recebeu um Valete, ele vale 6 pontos\n");
 		printf("\t\t\t\t\t\t\t _____ \n");
 	    printf("\t\t\t\t\t\t\t|J  WW|\n");
 	    printf("\t\t\t\t\t\t\t| ^ {)|\n");
 	    printf("\t\t\t\t\t\t\t|(.)%%%%|\n");
 	    printf("\t\t\t\t\t\t\t| |%%%%%%%|\n");
 	    printf("\t\t\t\t\t\t\t|_%%%%%%%>|\n\n");
+		
+		jogada = 6;
 	}
     
     else if (jogada == 12)
     {
-	    printf("\t\t\t\t\tVocê recebeu uma Dama, ela vale 12 pontos\n");
+	    printf("\t\t\t\t\tVocÃª recebeu uma Dama, ela vale 8 pontos\n");
 		printf("\t\t\t\t\t\t\t _____ \n");
 	    printf("\t\t\t\t\t\t\t|Q  WW|\n");
 	    printf("\t\t\t\t\t\t\t| ^ {)|\n");
 	    printf("\t\t\t\t\t\t\t|(.)%%%%|\n");
 	    printf("\t\t\t\t\t\t\t| |%%%%%%%|\n");
 	    printf("\t\t\t\t\t\t\t|_%%%%%%%>|\n\n");
+	    
+	    jogada = 8;
 	}
     
 	else if (jogada == 13)
     {
-    	printf("\t\t\t\t\tVocê recebeu um Rei, ele vale 13 pontos\n");
+    	printf("\t\t\t\t\tVocÃª recebeu um Rei, ele vale 10 pontos\n");
 		printf("\t\t\t\t\t\t\t _____ \n");
 	    printf("\t\t\t\t\t\t\t|K  WW|\n");
 	    printf("\t\t\t\t\t\t\t| ^ {)|\n");
 	    printf("\t\t\t\t\t\t\t|(.)%%%%|\n");
 	    printf("\t\t\t\t\t\t\t| |%%%%%%%|\n");
 	    printf("\t\t\t\t\t\t\t|_%%%%%%%>|\n\n");
+		
+		jogada = 10;
 	}
 		
 	return(jogada);		
